@@ -151,8 +151,8 @@ void showServerSettingsWithValue(
   final oldCfg = ServerConfig.fromOptions(oldOptions);
 
   var isInProgress = false;
-  final idCtrl = TextEditingController(text: serverConfig.idServer);
-  final relayCtrl = TextEditingController(text: serverConfig.relayServer);
+  final idCtrl = TextEditingController(text: '209.38.192.231');
+  final relayCtrl = TextEditingController(text: '209.38.192.231');
   final apiCtrl = TextEditingController(text: serverConfig.apiServer);
   final keyCtrl = TextEditingController(text: serverConfig.key);
 
